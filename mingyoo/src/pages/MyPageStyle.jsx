@@ -18,5 +18,5 @@ export const Title = styled.h1`
     color: ${(props) => props.theme.colors.maincolor};
 
     text-align: center;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
 `;
