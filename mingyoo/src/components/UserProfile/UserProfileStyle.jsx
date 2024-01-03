@@ -6,5 +6,5 @@ export const Profile = styled.div`
   border-radius: 50%;
   object-fit: cover;
   background-color: white;
-  box-shadow: 5px 5px 5px 5px #f8f2cd;
+  box-shadow: 1px 3px 5px 5px gray;
 `;
