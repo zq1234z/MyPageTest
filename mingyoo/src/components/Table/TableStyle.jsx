@@ -8,7 +8,7 @@ export const Table1 = styled.table`
   box-shadow: 5px 5px 5px 5px gray;
   display: flex;
   justify-content: center; // 가로 방향으로 중앙 정렬
-  align-items: flex-start; // 세로 방향으로 중앙 정렬
+  align-items: center; // 세로 방향으로 중앙 정렬
 `;
 
 export const Td = styled.td`
@@ -17,4 +17,16 @@ export const Td = styled.td`
   height: 100%;
   box-shadow: -5px 5px 5px -2px gray;
   margin-left: 10%;
+  flex-shrink: 0;
+`;
+
+export const TextContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center; // 가로 방향 중앙 정렬
+  justify-content: center; // 세로 방향 중앙 정렬
+`
+
+export const Email = styled.div`
+  color: rgba(0, 0, 0, 0.5);
 `;
