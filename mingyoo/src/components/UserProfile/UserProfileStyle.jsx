@@ -5,5 +5,6 @@ export const Profile = styled.div`
   height: 250px;
   border-radius: 50%;
   object-fit: cover;
-  background-color: gray;
-`
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px #f8f2cd;
+`;
